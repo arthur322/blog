@@ -26,3 +26,12 @@ yarn dev
 ```
 
 Open the browser and go to `http://localhost:3000` and be happy! :)
+
+## TODO (temporary section)
+
+- [ ] Home
+- [ ] About me page
+- [ ] Blog list page
+- [ ] Uses page
+- [ ] Digital garden
+- [ ] "Treasure room" page (a list of some favorite links)
