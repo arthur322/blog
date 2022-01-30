@@ -1,13 +1,8 @@
-import Head from 'next/head'
+import { Layout } from "@/components";
 
 export default function Home() {
   return (
-    <>
-      <Head>
-        <title>Atur Lima</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
+    <Layout>
       <main>
         <a href="https://github.com/arthur322" target="_blank" rel="noreferrer">
           <div
@@ -18,6 +13,6 @@ export default function Home() {
           </div>
         </a>
       </main>
-    </>
+    </Layout>
   )
 }

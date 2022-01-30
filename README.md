@@ -29,6 +29,7 @@ Open the browser and go to `http://localhost:3000` and be happy! :)
 
 ## TODO (temporary section)
 
+- [x] Change branch name
 - [ ] Home
 - [ ] About me page
 - [ ] Blog list page
