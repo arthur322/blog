@@ -1,21 +1,21 @@
-import Head from 'next/head'
+import { NextSeo } from 'next-seo'
 import { Header } from '@/components'
-import SETTINGS from '@/config/settings'
-
-const { siteTitle } = SETTINGS
 
 type Props = {
-  pageTitle?: string
   children: React.ReactNode
+  pageTitle?: string
+  pageDescription?: string
 }
 
-export default function Layout({ pageTitle, children }: Props) {
+export default function Layout({
+  children,
+  pageTitle,
+  pageDescription,
+}: Props) {
   return (
     <>
-      <Head>
-        <title>{pageTitle ? `${siteTitle} | ${siteTitle}` : siteTitle}</title>
-      </Head>
       <Header />
+      <NextSeo title={pageTitle} description={pageDescription} />
       <main className="mt-10">{children}</main>
     </>
   )
