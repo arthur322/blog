@@ -1,18 +1,22 @@
-import { Layout } from "@/components";
+import { Layout } from '@/components'
+import Image from 'next/image'
 
 export default function Home() {
   return (
     <Layout>
-      <main>
-        <a href="https://github.com/arthur322" target="_blank" rel="noreferrer">
-          <div
-            className="bg-center bg-cover bg-no-repeat flex h-80 mt-96 px-5 rounded-3xl hover:rotate-180"
-            style={{ backgroundImage: 'url("eu_cara.webp")' }}
-          >
-            <h1 className="font-mono text-black tracking-widest">Atur</h1>
-          </div>
-        </a>
-      </main>
+      <div className="float-right h-40 ml-3 relative w-40 md:h-60 md:w-60">
+        <Image
+          className="rounded-full"
+          layout="fill"
+          src="/eu_cara.webp"
+          alt="Perfil de Arthur Lima"
+        />
+      </div>
+      <p>Olá 👋 meu nome é Arthur Lima e esse é meu mini site.</p>
+      <p>
+        Tenho 25 anos, sou um desenvolvedor web e este é um cantinho da internet
+        que vou usar pra escrever um pouco sobre mim e coisas que eu gosto.
+      </p>
     </Layout>
   )
 }

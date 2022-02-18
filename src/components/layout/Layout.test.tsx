@@ -11,7 +11,12 @@ jest.mock('next/head', () => ({
 describe('Component: Layout', () => {
   // Should work :cry:
   it.skip('must render meta tags correctly', async () => {
-    render(<Layout />, { container: document.head })
+    render(
+      <Layout>
+        <div />
+      </Layout>,
+      { container: document.head }
+    )
 
     expect(document.title).toBe('Atur Lima')
   })
