@@ -4,45 +4,21 @@
 
 .site-title {
   color: #eee;
-  text-shadow:
-    1px 1px 0 #eb99a1,
-    2px 2px 0 #eb99a1,
-    3px 3px 0 #eb99a1, 
-    4px 4px 0 #eb99a1,
-    5px 5px 0 #eb99a1,
-    6px 6px 0 #eb99a1,
-    7px 7px 0 #eb99a1,
-    8px 8px 0 #eb99a1,
-    9px 9px 0 #eb99a1,
-    10px 10px 0 #eb99a1;
+  text-shadow: 1px 1px 0 #eb99a1, 2px 2px 0 #eb99a1, 3px 3px 0 #eb99a1,
+    4px 4px 0 #eb99a1, 5px 5px 0 #eb99a1, 6px 6px 0 #eb99a1, 7px 7px 0 #eb99a1,
+    8px 8px 0 #eb99a1, 9px 9px 0 #eb99a1, 10px 10px 0 #eb99a1;
   animation: colorsss 1s linear infinite alternate;
 }
 
 @keyframes colorsss {
   from {
-    text-shadow:
-      1px 1px 0 #eb99a1,
-      2px 2px 0 #eb99a1,
-      3px 3px 0 #eb99a1, 
-      4px 4px 0 #eb99a1,
-      5px 5px 0 #eb99a1,
-      6px 6px 0 #eb99a1,
-      7px 7px 0 #eb99a1,
-      8px 8px 0 #eb99a1,
-      9px 9px 0 #eb99a1,
-      10px 10px 0 #eb99a1;
+    text-shadow: 1px 1px 0 #eb99a1, 2px 2px 0 #eb99a1, 3px 3px 0 #eb99a1,
+      4px 4px 0 #eb99a1, 5px 5px 0 #eb99a1, 6px 6px 0 #eb99a1, 7px 7px 0 #eb99a1,
+      8px 8px 0 #eb99a1, 9px 9px 0 #eb99a1, 10px 10px 0 #eb99a1;
   }
   to {
-    text-shadow:
-      1px 1px 0 #da4453,
-      2px 2px 0 #da4453,
-      3px 3px 0 #da4453,
-      4px 4px 0 #da4453,
-      5px 5px 0 #da4453,
-      6px 6px 0 #da4453,
-      7px 7px 0 #da4453,
-      8px 8px 0 #da4453,
-      9px 9px 0 #da4453,
-      10px 10px 0 #da4453;
+    text-shadow: 1px 1px 0 #da4453, 2px 2px 0 #da4453, 3px 3px 0 #da4453,
+      4px 4px 0 #da4453, 5px 5px 0 #da4453, 6px 6px 0 #da4453, 7px 7px 0 #da4453,
+      8px 8px 0 #da4453, 9px 9px 0 #da4453, 10px 10px 0 #da4453;
   }
 }

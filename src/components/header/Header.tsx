@@ -16,9 +16,9 @@ export default function Header({ menuItems = SETTINGS.headerLinks }: Props) {
         Atur
       </span>
       <nav>
-        <ul className="flex p-0 my-5">
+        <ul className="flex my-5 p-0">
           {menuItems.map((item) => (
-            <li key={item.url} className="mr-5 m-0">
+            <li key={item.url} className="m-0 mr-5">
               {isExternal(item.url) ? (
                 <a href={item.url} target="_blank" rel="noreferrer">
                   {item.label}

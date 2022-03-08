@@ -11,7 +11,7 @@ The key idea is to make something simple and minimalist but at same time a bit c
 - [x] [Sakura.css](https://github.com/oxalorg/sakura/)
 - [x] [ESLint](https://eslint.org/)
 - [x] [Jest](https://jestjs.io/)
-- [ ] [Remark](https://github.com/remarkjs/remark) and [gray-metter](https://github.com/jonschlinkert/gray-matter) for markdown posts
+- [x] [Remark](https://github.com/remarkjs/remark) and [gray-metter](https://github.com/jonschlinkert/gray-matter) for markdown posts
 
 ## Running locally
 
@@ -32,9 +32,8 @@ Open the browser and go to `http://localhost:3000` and be happy! :)
 - [x] Change branch name
 - [x] Home
 - [ ] About me page
-- [ ] SEO component
-- [ ] Digital garden
-- [ ] Notes list page
+- [x] SEO component
+- [x] Digital garden/notes list page
 
 In future:
 - [ ] `/uses` page

@@ -14,7 +14,12 @@ const SETTINGS = {
       external: true,
     },
     { label: 'Github', url: 'https://github.com/arthur322', external: true },
-    { label: 'Blog', url: '/blog' },
+    {
+      label: 'Linkedin',
+      url: 'https://linkedin.com/in/arthur-conrado-lima/',
+      external: true,
+    },
+    { label: 'Notas', url: '/notes' },
   ],
   SEO: {
     canonical: SITE_URL,
@@ -33,9 +38,9 @@ const SETTINGS = {
       ],
     },
     twitter: {
-        handle: '@itsmenatalino',
-        cardType: 'summary_large_image',
-      }
+      handle: '@itsmenatalino',
+      cardType: 'summary_large_image',
+    },
   },
 }
 

@@ -12,7 +12,7 @@ export default function Home() {
           alt="Perfil de Arthur Lima"
         />
       </div>
-      <p>Olá 👋 meu nome é Arthur Lima e esse é meu mini site.</p>
+      <p>Olá 👋 me chamo Arthur Lima.</p>
       <p>
         Tenho 25 anos, sou um desenvolvedor web e este é um cantinho da internet
         que vou usar pra escrever um pouco sobre mim e coisas que eu gosto.

@@ -5,7 +5,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier -w .",
+    "format": "prettier -w --ignore-path .gitignore src",
     "test": "jest",
     "test:watch": "jest --watch",
     "commit": "gitmoji --commit"
