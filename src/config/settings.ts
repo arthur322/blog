@@ -1,6 +1,6 @@
 const SITE_URL = 'https://aturlima.com'
 const SITE_TITLE = 'Atur Lima'
-const SITE_DESC = 'Olá 👋  meu nome é Arthur Lima e esse é meu mini site.'
+const SITE_DESC = 'Olá 👋 me chamo Arthur Lima, sou um desenvolvedor web e este é um cantinho da internet que vou usar pra escrever um pouco sobre mim e coisas que eu gosto.'
 const SITE_IMG = `${SITE_URL}/eu_cara.webp`
 
 const SETTINGS = {
