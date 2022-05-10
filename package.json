@@ -1,0 +1,12 @@
+{
+  "name": "my-blog",
+  "version": "1.0.0",
+  "main": "index.html",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn clean-cache && yarn build && yarn serve",
+    "clean-cache": "echo \"{}\" > posts/cache.json",
+    "build": "1post build",
+    "serve": "1post serve"
+  }
+}

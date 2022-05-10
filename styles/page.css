@@ -1,0 +1,15 @@
+:root {
+  --primary: #d81b60;
+}
+
+main {
+  max-width: 700px !important;
+}
+
+.profile-image {
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.profile-image:hover {
+  transform: rotate(-10deg);
+}

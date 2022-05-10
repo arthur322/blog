@@ -1,0 +1,44 @@
+hgroup>:last-child {
+  --color: var(--h6-color);
+}
+
+ul {
+  padding: 0;
+}
+
+article {
+  margin: 0 0 40px 0;
+  padding: 30px;
+}
+
+article p {
+  margin-bottom: 0;
+}
+
+.profile-image {
+  width: 200px;
+  border-radius: 50%;
+  float: right;
+  margin: 30px 0 0 10px;
+}
+
+.top-menu { margin: 0; }
+.top-menu li {
+  display: inline;
+  margin-right: 20px;
+}
+
+@media (max-width: 425px) {
+  .profile-image {
+    display: block;
+    width: 120px;
+    float: none;
+    margin: 0 auto 20px;
+  }
+
+  .top-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

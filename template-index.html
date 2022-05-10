@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="{{blog_locale}}">
+<head>
+  <title>{{blog_title}}</title>
+  <meta charset="UTF-8">
+  
+  <!-- SEO -->
+  <meta name="author" content="{{blog_author}}">
+  <meta name="description" content="{{blog_description}}">
+  <meta property="og:title" content="{{blog_title}}">
+  <meta property="og:description" content="{{blog_description}}">
+  <meta property="og:site_name" content="{{blog_title}}">
+  <meta property="og:url" content="{{blog_url}}">
+  <meta property="og:image" content="{{blog_url}}/card.jpg"/>
+  <meta property="og:type" content="Website"/>
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="627" />
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="{{blog_title}}">
+  <meta name="twitter:creator" content="{{blog_author}}">
+  <meta name="twitter:title" content="{{blog_title}}">
+  <meta name="twitter:description" content="{{blog_description}}">
+  <meta name="twitter:image:src" content="{{blog_url}}/card.jpg">
+  <!--  -->
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Language" content="{{blog_locale}}">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎄</text></svg>">
+  <!-- <link href="https://unpkg.com/plume-css@1.0.13/lib/plume-all.css" rel="stylesheet" rel="preload" as="style" media="all" defer> -->
+  <!-- <link rel="stylesheet" href="https://unpkg.com/1post@1.0.3/themes/{{blog_theme}}.css"> -->
+  <link rel="stylesheet" href="./styles/pico.min.css">
+  <link rel="stylesheet" href="./styles/page.css">
+  <link rel="stylesheet" href="./styles/home.css">
+</head>
+<body>
+  <main class="container">
+    <div>
+      <hgroup>
+        <img src="https://github.com/arthur322.png" alt="Perfil de Arthur Lima" class="profile-image" width="200" height="200" />
+        <h1>Olá 👋 me chamo Arthur Lima.</h1>
+        <h2>Tenho 25 anos, sou um desenvolvedor web e este é um cantinho da internet que vou usar pra escrever um pouco sobre mim e coisas que eu gosto.</h2>
+      </hgroup>
+    </div>
+
+    <hr>
+
+    <ul class="top-menu">
+      <li><a href="{{github_url}}" target="_blank" rel="noreferrer">Github</a></li>
+      <li><a href="{{linkedin_url}}" target="_blank" rel="noreferrer">Linkedin</a></li>
+      <li><a href="{{twitter_url}}" target="_blank" rel="noreferrer">Twitter</a></li>
+    </ul>
+
+    <hr>
+
+    <h2>Posts</h2>
+
+    <ul>
+      {{posts_feed}}
+    </ul>
+  </main>
+</body>
+</html>

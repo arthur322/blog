@@ -1,0 +1,29 @@
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  border-radius: 1rem;
+  background: var(--card-background-color);
+  box-shadow: var(--card-box-shadow);
+  padding: 10px 10px 10px 30px;
+}
+
+.post-header a {
+  --color: var(--h1-color);
+  color: var(--color);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.post-header img {
+  border-radius: 50%;
+}
+
+article {
+  margin: 20px 0;
+  padding: 0;
+  border-radius: 0;
+  background: none;
+  box-shadow: none;
+}
