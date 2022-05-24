@@ -1,12 +1,15 @@
 {
     "url": "https://eleventy-blog-mnml.netlify.app",
-    "description": "A minimal blog template using eleventy",
+    "description": "Olá 👋 me chamo Arthur Lima, sou um desenvolvedor web e este é um cantinho da internet que vou usar pra escrever um pouco sobre mim e coisas que eu gosto.",
     "author": {
-      "name": "Arpit Batra",
-      "email": "arpitbatra123@gmail.com",
-      "twitter": "https://twitter.com/arpitbatra123",
-      "github": "https://github.com/arpitbatra123"
+      "name": "Arthur Lima",
+      "email": "arthur-esc@hotmail.com",
+      "twitter": "https://twitter.com/itsmenatalino",
+      "github": "https://github.com/arthur322"
     },
-    "feedUrl": "/feed.xml"
+    "feedUrl": "/feed.xml",
+    "twitterHandle": "itsmenatalino",
+    "githubUser": "arthur322",
+    "linkedinUser": "arthur-conrado-lima"
   }
   

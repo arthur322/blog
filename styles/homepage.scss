@@ -1,6 +1,13 @@
 @import "./common.scss";
-body {
-  text-transform: lowercase;
+// body {
+//   text-transform: lowercase;
+// }
+
+.profile-image {
+  border-radius: 16%;
+  float: right;
+  margin: 30px -150px 30px 30px;
+  transform: rotate(160deg);
 }
 
 .category {
@@ -16,6 +23,7 @@ body {
     &-date {
       font-size: 12px;
       color: #585858;
+      margin-left: 0.5rem;
     }
   }
 }
@@ -28,4 +36,12 @@ body {
 
 p {
   margin: 8px 0;
+}
+
+@media (max-width: 425px) {
+  .profile-image {
+    float: none;
+    display: block;
+    margin: 30px auto;
+  }
 }

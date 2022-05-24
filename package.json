@@ -1,7 +1,7 @@
 {
-  "name": "eleventy-blog-mnml",
+  "name": "aturlima-blog",
   "version": "1.0.0",
-  "description": "A Blog Template using eleventy and terminal css.",
+  "description": "My blog using arpitbatra123's 11y template",
   "scripts": {
     "build": "eleventy && npm run sass",
     "serve": "concurrently 'eleventy --serve' 'npm run sass:watch'",

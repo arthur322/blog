@@ -56,6 +56,17 @@ a {
   }
 }
 
+.social-menu {
+  list-style-type: none;
+  margin-left: 0;
+  margin-bottom: 20px;
+
+  li {
+    margin-right: 20px;
+    display: inline-block;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 767px) {
   .container {
     margin: 32px 14%;

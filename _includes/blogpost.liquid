@@ -8,13 +8,17 @@
     <title>{{ title }}</title>
     <link rel="stylesheet" href="../../styles/blogpost.css" />
     <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ siteMeta.author.name }}" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎄</text></svg>">
   </head>
   <body>
     <div class="container post-container">
+
+      {% include social-menu %}
+
       <h1>{{ title }}</h1>
       <div class="content">{{ content }}</div>
       <div class="back-link">
-        <a href="/">← Back</a>
+        <a href="/">← Voltar</a>
       </div>
     </div>
   </body>

@@ -1,8 +1,12 @@
 ---
 layout: homepage.liquid
-title: Horsin' Around
+title: Atur Lima 👋
 ---
 
-# Welcome to Hollywoo
+<img src="./assets/images/eu_cara.webp" width="150" height="150" class="profile-image" />
 
-Hello. I am BoJack. Horseman, obviously
+# Olá 👋 me chamo
+# Arthur Lima.
+
+Tenho 25 anos, sou um desenvolvedor web e este é um cantinho da internet que vou usar pra escrever um pouco sobre mim e coisas que eu gosto.
+

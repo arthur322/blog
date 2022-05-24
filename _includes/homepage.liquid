@@ -4,15 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="Description" content="Arpit Batra" />
+    <meta name="Description" content="Arthur Lima" />
     <title>{{ title }}</title>
     <link rel="stylesheet" href="./styles/homepage.css" />
     <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ siteMeta.author.name }}" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎄</text></svg>">
   </head>
   <body>
     <div class="container">
+      {% include social-menu %}
+
       {{ content }}
-      <h2 class="category">Posts</h2>
+
+      <h2 class="category">Notas</h2>
       <ul class="posts">
         {% for post in collections.posts reversed %}
         <li class="post">
@@ -24,7 +28,7 @@
             {% endif %}
           </span>
           <span class="post-date">
-            {{ post.date | date: '%b %Y' | downcase }}
+            {{ post.date | date: '%d %b %Y' | downcase }}
           </span>
         </li>
         {% endfor %}
